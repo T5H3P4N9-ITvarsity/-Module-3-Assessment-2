@@ -427,7 +427,7 @@ body{
 }
 
 .thank-you {
-    max-width:720px;
+    
     margin:40px ;
     padding:20px;
     text-align:center;
@@ -440,8 +440,9 @@ body{
 
 
 .summary {
-    text-align:left;
+    text-align:center;
     margin-top:20px;
+
     font-size:18px;
 }
 
