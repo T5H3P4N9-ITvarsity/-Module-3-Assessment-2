@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Restaurant Menu App | Vetkoek Bites</title>
+       <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="images/fontAwesome/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body id="meals-page">
+        <div class="phone-detial-screen">
+            <div class="detail-image">
+                <img src="images/vetkoek-and-mince.jpg" alt="Vetkoek Bites">
+                <a href="starter.html" class="back-btn" aria-label="Back to starter menu"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="detail-content">
+            <div class="detail-header">
+                <h2>Vetkoek Bites</h2>
+                <span class="time-badge large"><p>Price: <strong>R25.00</strong></p></span>
+            </div>
+        
+        <div class="nutritions">
+            <h4>Nutritions</h4>
+            <div class="nutrition-grid">
+                 <div class="nutrition-item">
+                    <span class="label">Protein</span>
+                    <div class="value">
+                        <i class="fa-solid fa-drumstick-bite" aria-hidden="true"></i>
+                        <span class="gains">~18 g</span>
+                    </div>
+                </div>
+                <div class="nutrition-item">
+                    <span class="label">Fat</span>
+                    <div class="value">
+                        <i class="fa-solid fa-oil-can" aria-hidden="true"></i>
+                        <span class="gains">~22 g</span>
+                    </div>
+                </div>
+                <div class="nutrition-item">
+                    <span class="label">Carbs</span>
+                    <div class="value">
+                        <i class="fa-solid fa-bread-slice" aria-hidden="true"></i>
+                        <span class="gains">~40 g</span>
+                    </div>
+                </div>
+                    <div class="nutrition-item">
+                    <span class="label">Calories</span>
+                    <div class="value">
+                        <i class="fa-solid fa-fire" aria-hidden="true"></i>
+                        <span class="gains">~380 kcal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="serving">
+            <h4>Serving Size:</h4>
+            <p class="about-the-meal">
+              Two mini vetkoek halves filled with seasoned mince — perfect as a satisfying snack.
+            </p>
+        
+
+          <h4>Extras</h4>
+          <form class="order-form" action="order-thank-you.html">
+            <ul class="extras-list">
+              <li><label><input type="checkbox" name="extras" value="Chips"> <i class="fa-solid fa-basket-food"></i> Chips</label></li>
+              <li><label><input type="checkbox" name="extras" value="Soft Drink"> <i class="fa-solid fa-mug-saucer"></i> Soft Drink</label></li>
+              <li><label><input type="checkbox" name="extras" value="Extra Cheese"> <i class="fa-solid fa-cheese"></i> Extra Cheese</label></li>
+            </ul>
+
+            <label for="notes">Notes / Requests</label><br>
+            <textarea id="notes" name="notes" rows="4" placeholder="Add any special requests (no onions, extra spicy, etc...)"></textarea>
+
+            <label for="quantity">Quantity:</label>
+            <select id="quantity" name="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+
+            <div class="order-actions">
+              <button type="submit" class="place-order-btn">Place Order</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
+        
