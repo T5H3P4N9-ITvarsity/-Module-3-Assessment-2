@@ -66,10 +66,14 @@
         
 
           <h4>Extras</h4>
-          <form class="order-form" action="order-thank-you.html">
-            <ul class="extras-list">
-              <li><label><input type="checkbox" name="extras" value="Vanilla Ice Cream"> <i class="fa-solid fa-ice-cream"></i> Vanilla Ice Cream</label></li>
-            </ul>
+          <form class="order-form" action="order-thank-you-koeksisters.html">
+            <div class="extras-list" role="group" aria-label="Extras">
+              <div class="extras-item">
+                <input id="check-01" type="checkbox" name="extras" value="Vanilla Ice Cream">
+                <label for="check-01"><i class="fa-solid fa-ice-cream" aria-hidden="true"></i> Vanilla Ice Cream</label>
+              </div>
+            </div>
+            <br>
 
             <label for="notes">Notes / Requests</label><br>
             <textarea id="notes" name="notes" rows="4" placeholder="Add any special requests"></textarea>

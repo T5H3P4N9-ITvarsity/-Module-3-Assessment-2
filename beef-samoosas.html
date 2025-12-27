@@ -66,14 +66,30 @@
         
 
           <h4>Extras</h4>
-          <form class="order-form" action="order-thank-you.html">
-            <ul class="extras-list">
-              <li><label for="check"><input id="check" type="checkbox" name="extras" value="Chips"> <i class="fa-solid fa-basket-food"></i> Chips</label></li>
-              <li><label for="check"><input id="check" type="checkbox" name="extras" value="Soft Drink"> <i class="fa-solid fa-mug-saucer"></i> Soft Drink</label></li>
-              <li><label for="check"><input id="check" type="checkbox" name="extras" value="Extra Cheese"> <i class="fa-solid fa-cheese"></i> Extra Cheese</label></li>
-              <li><label for="check"><input id="check" type="checkbox" name="extras" value="Pineapple Slice"> <i class="fa-solid fa-apple-whole"></i> Pineapple Slice</label></li>
-              <li><label for="check"><input id="check" type="checkbox" name="extras" value="Extra Mushrooms"> <i class="fa-solid fa-spoon"></i> Extra Mushrooms</label></li>
-            </ul>
+          <form class="order-form" action="order-thank-you-beef-samoosas.html">
+            <div class="extras-list" role="group" aria-label="Extras">
+              <div class="extras-item">
+                <input id="check-01" type="checkbox" name="extras" value="Chips">
+                <label for="check-01"><i class="fa-solid fa-basket-food" aria-hidden="true"></i> Chips</label>
+              </div>
+              <div class="extras-item">
+                <input id="check-02" type="checkbox" name="extras" value="Soft Drink">
+                <label for="check-02"><i class="fa-solid fa-mug-saucer" aria-hidden="true"></i> Soft Drink</label>
+              </div>
+              <div class="extras-item">
+                <input id="check-03" type="checkbox" name="extras" value="Extra Cheese">
+                <label for="check-03"><i class="fa-solid fa-cheese" aria-hidden="true"></i> Extra Cheese</label>
+              </div>
+              <div class="extras-item">
+                <input id="check-04" type="checkbox" name="extras" value="Pineapple Slice">
+                <label for="check-04"><i class="fa-solid fa-apple-whole" aria-hidden="true"></i> Pineapple Slice</label>
+              </div>
+              <div class="extras-item">
+                <input id="check-05" type="checkbox" name="extras" value="Extra Mushrooms">
+                <label for="check-05"><i class="fa-solid fa-spoon" aria-hidden="true"></i> Extra Mushrooms</label>
+              </div>
+            </div>
+            <br>
 
             <label for="notes">Notes / Requests</label><br>
             <textarea id="notes" name="notes" rows="4" placeholder="Add any special requests (no onions, extra spicy, etc...)"></textarea>

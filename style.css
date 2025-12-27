@@ -34,6 +34,25 @@ body{
 }
 
 
+/*=============== CUSTOM CHECKBOXES ===============*/
+input[type="checkbox"]{
+    display:none;
+}
+
+input[type=checkbox] + label:before{
+    font-family: FontAwesome;
+    display:inline-block;
+    content:"\f0c8";
+    letter-spacing:10px;
+    font-size:20px;
+}
+
+input[type=checkbox]:checked + label:before{
+    content: "\f14a";
+
+}
+
+
 
 /*================== MENU-HEADER ==================*/
 
@@ -391,9 +410,10 @@ body{
     gap:8px; 
 }
 
-.order-form li{
+.order-form label{
  font-size:20px;
 }
+
 
 #notes{
     border-radius:12px;
@@ -483,11 +503,6 @@ html, body {
 }
 
 
-@media (min-width: 900px) {
-  .detail-image { height: 420px; }
-  .detail-content { padding-bottom: 120px; }
-}
-
 
 @media(max-width: 600px) {
     .menu-item h2{
@@ -495,6 +510,10 @@ html, body {
         width: 85px;
         padding:25px 0px 10px 0px;
 
+    }
+
+    .thank-you{
+        padding-top:200px;
     }
 
     .menu-item{

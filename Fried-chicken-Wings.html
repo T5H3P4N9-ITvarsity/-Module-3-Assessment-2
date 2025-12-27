@@ -66,12 +66,22 @@
         
 
           <h4>Extras</h4>
-          <form class="order-form" action="order-thank-you.html">
-            <ul class="extras-list">
-              <li><label><input type="checkbox" name="extras" value="Chips"> <i class="fa-solid fa-basket-food"></i> Chips</label></li>
-              <li><label><input type="checkbox" name="extras" value="Soft Drink"> <i class="fa-solid fa-mug-saucer"></i> Soft Drink</label></li>
-              <li><label><input type="checkbox" name="extras" value="Extra Sauce"> <i class="fa-solid fa-bottle-droplet"></i> Extra Sauce</label></li>
-            </ul>
+          <form class="order-form" action="order-thank-you-fried-chicken-wings.html">
+            <div class="extras-list" role="group" aria-label="Extras">
+              <div class="extras-item">
+                <input id="check-01" type="checkbox" name="extras" value="Chips">
+                <label for="check-01"><i class="fa-solid fa-basket-food" aria-hidden="true"></i> Chips</label>
+              </div>
+              <div class="extras-item">
+                <input id="check-02" type="checkbox" name="extras" value="Soft Drink">
+                <label for="check-02"><i class="fa-solid fa-mug-saucer" aria-hidden="true"></i> Soft Drink</label>
+              </div>
+              <div class="extras-item">
+                <input id="check-03" type="checkbox" name="extras" value="Extra Sauce">
+                <label for="check-03"><i class="fa-solid fa-bottle-droplet" aria-hidden="true"></i> Extra Sauce</label>
+              </div>
+            </div>
+            <br>
 
             <label for="notes">Notes / Requests</label><br>
             <textarea id="notes" name="notes" rows="4" placeholder="Add any special requests (no onions, extra spicy, etc...)"></textarea>
@@ -94,91 +104,3 @@
     </div>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <h4>Extras</h4>
-          <form class="order-form" action="order-thank-you.html">
-            <ul class="extras-list">
-              <li><label><input type="checkbox" name="extras" value="Chips"> <i class="fa-solid fa-basket-food"></i> Chips</label></li>
-              <li><label><input type="checkbox" name="extras" value="Soft Drink"> <i class="fa-solid fa-mug-saucer"></i> Soft Drink</label></li>
-              <li><label><input type="checkbox" name="extras" value="Extra Sauce"> <i class="fa-solid fa-bottle-droplet"></i> Extra Sauce</label></li>
-            </ul>
-
-            <label for="notes">Notes / Requests</label><br>
-            <textarea id="notes" name="notes" rows="4" placeholder="Add any special requests (no onions, extra spicy, etc...)"></textarea>
-
-            <label for="quantity">Quantity:</label>
-            <select id="quantity" name="quantity">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </select>
-
-            <div class="order-actions">
-              <button type="submit" class="place-order-btn">Place Order</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    </body>
